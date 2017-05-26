@@ -1,0 +1,217 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:"arial",heletica,sans-serif;
+  font-size:12px;
+    background: #2980b9 url('http://st2.depositphotos.com/1000419/12092/v/950/depositphotos_120927214-stock-illustration-whales-and-ships-seamless-pattern.jpg') repeat 0 0;
+  -webkit-animation: 30s linear 0s normal none infinite animate;
+  -moz-animation: 30s linear 0s normal none infinite animate;
+  -ms-animation: 30s linear 0s normal none infinite animate;
+  -o-animation: 30s linear 0s normal none infinite animate;
+  animation: 30s linear 0s normal none infinite animate;
+  font-family: 'Neucha', cursive;
+  }
+
+@-webkit-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+@-moz-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+.point-list {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  background: linear-gradient(black 0%, MidnightBlue 25%, DeepSkyBlue 50%, skyblue 75%, salmon);
+  background-size: 100% 400%;
+  background-position: 0 100%;
+  position: fixed;
+  width: 80%;
+  left: 5%;
+  top: 5px;
+  font-family: 'Marck Script', cursive;
+  z-index: 2;
+}
+
+.point-item {
+  font-size: 25px;
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.point-item a {
+  text-decoration: none;
+}
+
+.praga, .vena, .munhen {
+  padding: 10px;
+  margin-top: 60px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.praga-list, .vena-list, .munhen-list {
+  width: 900px;
+  background-color: #f2f1f1;
+  padding-top: 10px;
+  align-self: center;
+}
+ol li{
+  margin-bottom:15px;
+}
+ol li:nth-child(1){
+  margin-top:20px;
+}
+
+.comment{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color:#808080;
+}
+
+.praga-video, .vena-video, .munhen-video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  position: relative;
+}
+
+.praga-video iframe, .vena-video iframe  {
+  width: 100%;
+  height: 450px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+
+.days {
+  font-size: 35px;
+  color: blue;
+  margin-left: 16px;
+}
+
+.btn {
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.btn:after {
+  content: "";
+  background-image: url(../img/face7.png);
+  height: 200px;
+  width: 165px;
+  right: 73px;
+  top: -77px;
+  position: absolute;
+}
+
+.btn:before {
+  content: "";
+  background-image: url(../img/minihand.png);
+  height: 100px;
+  width: 165px;
+  right: 433px;
+  bottom: -26px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.bud {
+  display: flex;
+  justify-content: center;
+}
+
+
+.bud img {
+  margin-top: 110px;
+  margin-bottom: 45px;
+  width: 800px;
+  height: 400px;
+}
+
+.praga, .vena, .munhen, .bud {
+  display: none;
+}
+
+.map iframe{
+  width: 700px;
+  height: 500px;
+  display: none;
+  padding-bottom: 50px;
+}
+
+.map p {
+  cursor: pointer;
+
+}
+
+.post {
+  align-self: center;
+  background-color: #d7eef4;
+  border-radius: 30%;
+}
+
+.vena .btn:after {
+  background-image: url(../img/1767_picture.png);
+  height: 350px;
+  width: 292px;
+  right: 27px;
+  top: -131px;
+}
+
+footer {
+  // padding: 20px;
+  font-size: 20px;
+  background: linear-gradient(black 0%, MidnightBlue 25%, DeepSkyBlue 50%, skyblue 75%, salmon);
+  display: flex;
+  justify-content: flex-end;
+  background-size: 100% 400%;
+    background-position: 0 100%;
+
+}
+
+
+footer p {
+  margin: 5px;
+}
+
+
+.munhen .btn:after {
+  background-image: url(../img/ni4o.png);
+  height: 350px;
+  width: 292px;
+  right: -26px;
+  top: -131px;
+  background-repeat: no-repeat;
+}
+
+
+
+.active {
+display: flex;
+}
